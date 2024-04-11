@@ -1,10 +1,10 @@
 import './App.css';
+import RouterPart from "./parts/router-part";
 
 function App() {
-  const name = "sfsdfsd";
   return (
     <div className="App">
-
+      <RouterPart/>
     </div>
   );
 }
