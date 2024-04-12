@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-function LeeftSide() {
+function LeftSide() {
 
     const activer = ({isActive}) => {
         return isActive? "my-nav-link active": "my-nav-link";
@@ -16,8 +16,8 @@ function LeeftSide() {
                 <NavLink to="/finance" className={activer}><i class="bi bi-currency-dollar"></i> Finance</NavLink>
                 <NavLink to="/call" className={activer}><i class="bi bi-telephone"></i> Call</NavLink>
                 <NavLink to="/customer" className={activer}><i class="bi bi-person-workspace"></i> Customer</NavLink>
-                <NavLink to="/order" className={activer}><i className="bi bi-clock"></i> Order</NavLink>
-                <NavLink to="/product" className={activer}><i class="bi bi-box"></i> Product</NavLink>
+                <NavLink to="/order" className={activer}><i className="bi bi-arrow-left-right"></i> Order</NavLink>
+                <NavLink to="/product" className={activer}><i className="bi bi-archive"></i> Product</NavLink>
                 <NavLink to="/employee" className={activer}><i class="bi bi-person-video2"></i> Emloyee</NavLink>
             </div>
             <div className="for-nav-bottom">
@@ -28,4 +28,4 @@ function LeeftSide() {
     );
 }
 
-export default LeeftSide;
+export default LeftSide;
