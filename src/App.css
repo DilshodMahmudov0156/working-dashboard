@@ -178,7 +178,6 @@ tbody tr{
   display: flex;
   align-items: center;
 }
-.filter-btn{}
 .add{
   background-color: #1F5764;
   color: #FFFFFF;

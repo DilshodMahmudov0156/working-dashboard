@@ -18,7 +18,7 @@ function LeftSide() {
                 <NavLink to="/customer" className={activer}><i class="bi bi-person-workspace"></i> Customer</NavLink>
                 <NavLink to="/order" className={activer}><i className="bi bi-arrow-left-right"></i> Order</NavLink>
                 <NavLink to="/product" className={activer}><i className="bi bi-archive"></i> Product</NavLink>
-                <NavLink to="/employee" className={activer}><i class="bi bi-person-video2"></i> Emloyee</NavLink>
+                <NavLink to="/employee" className={activer}><i class="bi bi-person-video2"></i> Employee</NavLink>
             </div>
             <div className="for-nav-bottom">
                 <NavLink to="/settings" className={activer}><i class="bi bi-gear"></i> Settings</NavLink>
