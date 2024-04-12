@@ -20,6 +20,9 @@ a{
   height:  100vh;
   background-color: #193a49;
   overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .right{
   width: 100%;
@@ -82,7 +85,8 @@ a{
 }
 .for-nav-bottom{
   padding: 0px 65px;
-  margin-top: 95px;
+  /*margin-top: 95px;*/
+  margin-bottom: 70px;
 }
 .my-card{
   width: 100%;
