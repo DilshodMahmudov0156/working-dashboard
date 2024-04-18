@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Customers from "../components/customers";
+import Customers from "../components/customer/customers";
 import LeftSide from "./left-side";
+import Employee from "../components/employee/employee";
 
 function RouterPart() {
     return (
@@ -11,6 +12,7 @@ function RouterPart() {
                 <div className="right">
                     <Routes>
                         <Route path="/customer" element={<Customers/>}/>
+                        <Route path="/employee" element={<Employee/>}/>
                     </Routes>
                 </div>
             </div>

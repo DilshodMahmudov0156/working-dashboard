@@ -5,8 +5,20 @@ function FilterBar({}) {
         <div className="filter-bar">
             <div className="filter-bar-top">
                 <button className="filter-btn active">
-                    All Customers
-                    <div className="my-badge">10</div>
+                    All Employees
+                    <div className="my-badge">0</div>
+                </button>
+                <button className="filter-btn">
+                    Active
+                    <div className="my-badge">0</div>
+                </button>
+                <button className="filter-btn">
+                    Inactive
+                    <div className="my-badge">0</div>
+                </button>
+                <button className="filter-btn">
+                    Terminated
+                    <div className="my-badge">0</div>
                 </button>
             </div>
             <div className="filter-bar-bottom">

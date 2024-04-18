@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Tbody(props) {
+function Tbody() {
     return (
         <tbody>
             <tr>

@@ -92,7 +92,7 @@ a{
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  padding: 50px;
+  padding: 30px 50px 65px 50px;
   background-color: #193a49;
   border-radius: 15px;
 }
@@ -120,9 +120,10 @@ tbody tr{
   width: 100%;
   height: auto;
   border-bottom: 1px solid #3D515A;
+  display: flex;
 }
 .filter-btn{
-  padding: 10px 0px;
+  padding: 10px 10px 10px 20px;
   border: none;
   color: #3D515A;
   font-size: 17px;
@@ -194,6 +195,7 @@ tbody tr{
 .add span{
   font-size: 22px;
   color: #00A907;
+  margin-right: 5px;
 }
 .filter-toggle{
   padding: 5px 10px;
@@ -205,4 +207,55 @@ tbody tr{
 }
 .filter-toggle i{
   margin-right: 5px;
+}
+.employee-password{
+  font-size: 21px;
+  margin: 0;
+}
+.active-status{
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #04B600;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.in-active-status{
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #DDAD01;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.terminated-status{
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #E80000;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.create-part{
+  box-sizing: border-box;
+  padding: 20px 80px 50px 80px;
+  border-radius: 10px;
+  background-color: #294959;
+}
+.my-label{
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+.my-input{
+  width: 100%;
+  height: auto;
+  padding: 5px 15px;
+  background-color: #254250;
+  border-radius: 5px;
+  border: 1px solid #6E797E;
+  outline: none;
+  color: #FFFFFF;
 }

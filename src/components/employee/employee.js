@@ -1,14 +1,16 @@
 import React from 'react';
-import Table from "./table";
-import FilterBar from "./filter-bar";
+import FilterBar from "../extra-components/filter-bar";
+import Table from "../customer/table";
+import EmployeeTable from "./employee-table";
+import AddComponent from "../extra-components/add-component";
 
-function Customers({}) {
+function Employee() {
     return (
         <div className="container-fluid">
             <div className="row justify-content-center">
                 <div className="col-xl-11">
                     <div className="right-heading">
-                        <h2>Customer</h2>
+                        <h2>Employee</h2>
                         <div className="company">
                             <img src="" alt=""/>
                             <p className="text">Name</p>
@@ -16,7 +18,8 @@ function Customers({}) {
                     </div>
                     <div className="my-card">
                         <FilterBar/>
-                        <Table/>
+                        {/*<EmployeeTable/>*/}
+                        <AddComponent/>
                     </div>
                 </div>
             </div>
@@ -24,4 +27,4 @@ function Customers({}) {
     );
 }
 
-export default Customers;
+export default Employee;

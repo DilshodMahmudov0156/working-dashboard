@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Thead({}) {
+function Thead() {
     return (
         <thead>
             <tr>

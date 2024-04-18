@@ -2,7 +2,7 @@ import React from 'react';
 import Thead from "./thead";
 import Tbody from "./tbody";
 
-function Table({}) {
+function Table() {
     return (
         <table className="my-table">
             <Thead/>
